@@ -1,0 +1,17 @@
+
+syntax = "proto3";
+package com.example.hello;
+
+
+
+message clientRequest {
+  string request = 1;
+}
+
+message serverAnswer {
+  string answer = 1;
+}
+
+service helloService {
+  rpc sayHello(clientRequest) returns (serverAnswer);
+}
