@@ -32,8 +32,8 @@
 
         <dependency>
             <groupId>com.example</groupId>
-            <artifactId>grpc_proto</artifactId>
-            <version>0.0.1-SNAPSHOT</version>
+            <artifactId>grpcProtoGradle</artifactId>
+            <version>1.0-SNAPSHOT</version>
         </dependency>
 
 
